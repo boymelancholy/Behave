@@ -1,0 +1,7 @@
+name: Behave
+main: boymelancholy\behave\Behave
+version: 1.0
+api: 3.0.0
+load: POSTWORLD
+author: boymelancholy
+website: https://github.com/boymelancholy/Behave
