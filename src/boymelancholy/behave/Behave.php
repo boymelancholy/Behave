@@ -14,7 +14,6 @@ class Behave extends PluginBase {
 		$map->register("behave-command", new BehaveCommand($this));
 		$map->register("unbehave-command", new UnbehaveCommand($this));
 
-		$this->getLogger()->info("-- Let's behave sameone --");
 		$this->getLogger()->info("version : ".$this->getDescription()->getVersion());
 		$this->getLogger()->info("author : ".$this->getDescription()->getAuthors()[0]);
 		$this->getLogger()->info("website : ".$this->getDescription()->getWebsite());
